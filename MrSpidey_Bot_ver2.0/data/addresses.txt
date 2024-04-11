@@ -1,0 +1,22 @@
+
+ Title: open code
+ address : C:\Users\aksha\AppData\Local\Programs\Microsoft VS Code\Code.exe
+
+
+ Title: open chrome 
+ address : C:\Program Files\Google\Chrome\Application\chrome.exe
+
+ Title: open calculator 
+ address : C:\Users\aksha\Desktop\Calculator.exe 
+
+ Title: open  
+ address :  
+
+ Title: open python 
+ address : C:\Users\aksha\AppData\Local\Programs\Python\Python38\python.exe 
+
+ Title: open dream 
+ address : C:\Users\aksha\AppData\Local\Programs\Python\Python38\python.exe 
+
+ Title: open asdfg 
+ address : sdfghjkl 
