@@ -1,0 +1,11 @@
+import datetime
+import speech_recognition as sr
+import webbrowser
+import subprocess
+import keyboard 
+import os
+import sys
+import wave
+import pygame
+from openai import OpenAI
+import pyttsx3
