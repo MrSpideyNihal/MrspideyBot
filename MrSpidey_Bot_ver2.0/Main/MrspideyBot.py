@@ -35,7 +35,7 @@ class VoiceAssistant:
         self.window.fill(BLUE)
         self.window.blit(self.Mic_img, (10, 82))
         self.window.blit(self.setting_img, (10, 200))
-        self.window.blit(self.Stop_image, (32, 330))
+        # self.window.blit(self.Stop_image, (32, 330))
         pygame.draw.rect(self.window, ORANGE, (120, 80, 650, 320))
         pygame.draw.rect(self.window, ORANGE, (10, 20, 280, 40))
         self.display_label(self.window, "User:", self.font, BLACK, 122, 100)
@@ -66,6 +66,8 @@ class VoiceAssistant:
             return 0
 
     def speak(self, audio):
+        value = self.Checkfile()
+        engine.setProperty('voice',voices[value].id)
         engine.setProperty('rate', 160)
         engine.save_to_file(audio, "temp_audio.wav")
         engine.runAndWait()
