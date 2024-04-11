@@ -150,7 +150,7 @@ def Setting(query,results):
                 check_startup_file()
                 check_btn = tk.Checkbutton(tkinter_root,text="Wish me on startup!" ,variable=check_btn_var)
                 check_btn.place(x=130,y=50)
-                offline_btn = tk.Button(tkinter_root,text="Offline Click here!",command=main)
+                offline_btn = tk.Button(tkinter_root, text="Offline Click here!", command=lambda: main(0))
                 offline_btn.place(x=140,y=90)
                 tkinter_root.mainloop()
 
